@@ -5,4 +5,11 @@ A 4 x 2 vactrol matrix mixer controlled by the Turing Machine
 
 Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 
+###Demos: 
+[Vactrol Mix Expander 1](https://soundcloud.com/musicthing/random-looping-vactrol-mixer)  
+[Vactrol Mix Expander 2](https://soundcloud.com/musicthing/exquisite-corpse-2)  
+
+
+
+
 ![PCBs](http://distilleryimage10.ak.instagram.com/fa941888991611e2b9ed22000a1f8cd8_7.jpg)
