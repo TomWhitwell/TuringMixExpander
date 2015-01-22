@@ -8,7 +8,10 @@
 Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 
 [Documentation](https://github.com/TomWhitwell/TuringMixExpander/wiki)   
+[Patch Ideas](https://github.com/TomWhitwell/TuringMixExpander/wiki/Patch-Recipes)  
+[Manual](https://github.com/TomWhitwell/TuringMixExpander/wiki/How-to-use-the-module)  
 [Issue Log](https://github.com/TomWhitwell/TuringMixExpander/issues)   
+[Schematic](https://github.com/TomWhitwell/TuringMixExpander/wiki/Schematics)  
 
 ###Demos: 
 [Vactrol Mix Expander 1](https://soundcloud.com/musicthing/random-looping-vactrol-mixer)  
@@ -17,3 +20,4 @@ Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.
 
 ![Turing Machine Vactrol Mix Expander](https://farm6.staticflickr.com/5452/8877172227_30965980ba.jpg)  
 
+This module design is Creative Commons Licensed by Tom Whitwell: CC-BY-SA   
