@@ -7,7 +7,7 @@
 - Creates rhythmic patterns or shifting drones from any audio source 
 - Great for feedback loops  
 - DC coupled, so you can also rhythmically cut up DC sources; LFOs etc. 
-- Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
+- Inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 
 ###Resources  
 
