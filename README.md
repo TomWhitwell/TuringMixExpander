@@ -1,5 +1,7 @@
 ##Turing Vactrol Mix Expander   
 
+![[](http://youtu.be/Ccwjb2riCqE)](https://github.com/TomWhitwell/TuringMixExpander/raw/master/Collateral/vme_vid1.png)  
+
 - A 4 in, 2 out  vactrol matrix mixer controlled by the Turing Machine  
 - An alternative to the Voltages expander (connects to the Gates output) 
 - Creates rhythmic patterns or shifting drones from any audio source 
@@ -16,6 +18,9 @@
 [Schematic](https://github.com/TomWhitwell/TuringMixExpander/wiki/Schematics)  
 
 ###Demos: 
+[Video 1: General demo](http://youtu.be/Ccwjb2riCqE)  
+[Video 2](http://youtu.be/xf4IhIy3am4)  
+[Video 3](http://youtu.be/hwUs_kbf3PM)  
 [Vactrol Mix Expander 1](https://soundcloud.com/musicthing/random-looping-vactrol-mixer)  
 [Vactrol Mix Expander 2](https://soundcloud.com/musicthing/exquisite-corpse-2)  
 [20 Minutes of Madness](https://soundcloud.com/musicthing/radio-music-20-minutes-of-madness)  
