@@ -1,9 +1,10 @@
 ##Turing Vactrol Mix Expander   
 
 - A 4 in, 2 out  vactrol matrix mixer controlled by the Turing Machine  
-- Creates rhythmic patterns (or evolving drones) from any audio sources 
+- An alternative to the Voltages expander (connects to the Gates output) 
+- Creates rhythmic patterns or shifting drones from any audio source 
 - Great for feedback loops  
-- DC coupled, so you can also rhythmically cut up DC sources; LFOs etc.  
+- DC coupled, so you can also rhythmically cut up DC sources; LFOs etc. 
 - Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 
 ##Resources  
