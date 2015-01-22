@@ -1,4 +1,4 @@
-##Turing Mix Expander   
+##Turing Vactrol Mix Expander   
 
 - A 4 in, 2 out  vactrol matrix mixer controlled by the Turing Machine  
 - Creates rhythmic patterns (or evolving drones) from any audio sources 
