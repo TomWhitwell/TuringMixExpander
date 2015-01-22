@@ -4,8 +4,9 @@
 - Creates rhythmic patterns (or evolving drones) from any audio sources 
 - Great for feedback loops  
 - DC coupled, so you can also rhythmically cut up DC sources; LFOs etc.  
+- Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 
-Circuit inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
+##Resources  
 
 [Documentation](https://github.com/TomWhitwell/TuringMixExpander/wiki)   
 [Patch Ideas](https://github.com/TomWhitwell/TuringMixExpander/wiki/Patch-Recipes)  
