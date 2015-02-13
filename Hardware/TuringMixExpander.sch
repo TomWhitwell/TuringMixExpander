@@ -6475,7 +6475,7 @@ level attenuators</text>
 <instances>
 <instance part="IN_1A" gate="G$1" x="17.78" y="167.64" rot="R180"/>
 <instance part="IN_2A" gate="G$1" x="77.47" y="168.91" rot="R180"/>
-<instance part="IN_3A" gate="G$1" x="16.51" y="139.7" rot="R180"/>
+<instance part="IN_3A" gate="G$1" x="13.97" y="139.7" rot="R180"/>
 <instance part="IN_4A" gate="G$1" x="77.47" y="134.62" rot="R180"/>
 <instance part="IC1" gate="D" x="48.26" y="154.94"/>
 <instance part="IC1" gate="A" x="109.22" y="156.21"/>
@@ -6516,7 +6516,7 @@ level attenuators</text>
 </instance>
 <instance part="LED1" gate="G$1" x="152.4" y="157.48" rot="R90"/>
 <instance part="LED2" gate="G$1" x="205.74" y="154.94" rot="R90"/>
-<instance part="LED3" gate="G$1" x="154.94" y="139.7" rot="R90"/>
+<instance part="LED3" gate="G$1" x="152.4" y="139.7" rot="R90"/>
 <instance part="LED4" gate="G$1" x="205.74" y="137.16" rot="R90"/>
 <instance part="LED5" gate="G$1" x="154.94" y="119.38" rot="R90"/>
 <instance part="LED6" gate="G$1" x="208.28" y="116.84" rot="R90"/>
@@ -6524,7 +6524,7 @@ level attenuators</text>
 <instance part="LED8" gate="G$1" x="208.28" y="96.52" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="GATES1" gate="G$1" x="40.64" y="45.72"/>
-<instance part="R1" gate="G$1" x="142.24" y="157.48"/>
+<instance part="R1" gate="G$1" x="142.24" y="157.48" rot="R180"/>
 <instance part="C1" gate="G$1" x="73.66" y="93.98" rot="R180"/>
 <instance part="C2" gate="G$1" x="73.66" y="81.28"/>
 <instance part="OUT_LEFT1" gate="G$1" x="193.04" y="55.88"/>
@@ -6536,10 +6536,10 @@ level attenuators</text>
 <instance part="SUPPLY5" gate="GND" x="213.36" y="109.22"/>
 <instance part="SUPPLY8" gate="GND" x="213.36" y="129.54"/>
 <instance part="SUPPLY9" gate="GND" x="213.36" y="147.32"/>
-<instance part="R2" gate="G$1" x="147.32" y="139.7"/>
+<instance part="R2" gate="G$1" x="142.24" y="139.7" rot="R180"/>
 <instance part="R3" gate="G$1" x="147.32" y="119.38"/>
 <instance part="R4" gate="G$1" x="147.32" y="99.06"/>
-<instance part="R9" gate="G$1" x="198.12" y="154.94"/>
+<instance part="R9" gate="G$1" x="198.12" y="154.94" rot="R180"/>
 <instance part="R10" gate="G$1" x="198.12" y="137.16"/>
 <instance part="R11" gate="G$1" x="200.66" y="116.84"/>
 <instance part="R12" gate="G$1" x="200.66" y="96.52"/>
@@ -6560,7 +6560,7 @@ level attenuators</text>
 </segment>
 <segment>
 <pinref part="IN_3A" gate="G$1" pin="5"/>
-<wire x1="22.86" y1="142.24" x2="21.59" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="142.24" x2="19.05" y2="142.24" width="0.1524" layer="91"/>
 <label x="25.4" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -6635,6 +6635,7 @@ level attenuators</text>
 <wire x1="73.66" y1="86.36" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
 <junction x="73.66" y="86.36"/>
+<label x="66.04" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="LDR1" gate="G$1" pin="LED-"/>
@@ -6848,7 +6849,7 @@ level attenuators</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <label x="134.62" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6863,7 +6864,7 @@ level attenuators</text>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
 <label x="187.96" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6878,7 +6879,7 @@ level attenuators</text>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="139.7" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
 <label x="134.62" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -7107,9 +7108,8 @@ level attenuators</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="VR3" gate="G$1" pin="E"/>
-<wire x1="33.02" y1="137.16" x2="21.59" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="137.16" x2="19.05" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="IN_3A" gate="G$1" pin="3"/>
-<wire x1="24.13" y1="137.16" x2="21.59" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -7137,6 +7137,7 @@ level attenuators</text>
 <segment>
 <pinref part="LDR2" gate="G$1" pin="LED+"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="157.48" y1="139.7" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7195,14 +7196,14 @@ level attenuators</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7221,7 +7222,6 @@ level attenuators</text>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -7245,6 +7245,361 @@ level attenuators</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,83.82,93.98,IC1P,V+,+12V,,,"/>
+<approved hash="104,1,83.82,78.74,IC1P,V-,-12V,,,"/>
+<approved hash="104,1,93.98,93.98,IC2P,V+,+12V,,,"/>
+<approved hash="104,1,93.98,78.74,IC2P,V-,-12V,,,"/>
+<approved hash="105,0,?,?,N$8,,,,,"/>
+<approved hash="105,0,?,?,N$9,,,,,"/>
+<approved hash="107,1,48.26,50.8,GND,-12V,,,,"/>
+<approved hash="107,1,48.26,48.26,GND,CLOCK,,,,"/>
+<approved hash="107,1,48.26,38.1,GND,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,GND,GATE3,,,,"/>
+<approved hash="107,1,48.26,43.18,GND,GATE5,,,,"/>
+<approved hash="107,1,48.26,45.72,GND,GATE7,,,,"/>
+<approved hash="107,1,33.02,50.8,GND,-12V,,,,"/>
+<approved hash="107,1,33.02,48.26,GND,CLOCK,,,,"/>
+<approved hash="107,1,33.02,38.1,GND,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,GND,GATE4,,,,"/>
+<approved hash="107,1,33.02,43.18,GND,GATE6,,,,"/>
+<approved hash="107,1,33.02,45.72,GND,GATE8,,,,"/>
+<approved hash="107,1,48.26,53.34,+12V,GND,,,,"/>
+<approved hash="107,1,48.26,50.8,+12V,-12V,,,,"/>
+<approved hash="107,1,48.26,48.26,+12V,CLOCK,,,,"/>
+<approved hash="107,1,48.26,38.1,+12V,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,+12V,GATE3,,,,"/>
+<approved hash="107,1,48.26,43.18,+12V,GATE5,,,,"/>
+<approved hash="107,1,48.26,45.72,+12V,GATE7,,,,"/>
+<approved hash="107,1,33.02,53.34,+12V,GND,,,,"/>
+<approved hash="107,1,33.02,50.8,+12V,-12V,,,,"/>
+<approved hash="107,1,33.02,48.26,+12V,CLOCK,,,,"/>
+<approved hash="107,1,33.02,38.1,+12V,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,+12V,GATE4,,,,"/>
+<approved hash="107,1,33.02,43.18,+12V,GATE6,,,,"/>
+<approved hash="107,1,33.02,45.72,+12V,GATE8,,,,"/>
+<approved hash="107,1,48.26,48.26,-12V,CLOCK,,,,"/>
+<approved hash="107,1,48.26,38.1,-12V,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,-12V,GATE3,,,,"/>
+<approved hash="107,1,48.26,43.18,-12V,GATE5,,,,"/>
+<approved hash="107,1,48.26,45.72,-12V,GATE7,,,,"/>
+<approved hash="107,1,33.02,48.26,-12V,CLOCK,,,,"/>
+<approved hash="107,1,33.02,38.1,-12V,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,-12V,GATE4,,,,"/>
+<approved hash="107,1,33.02,43.18,-12V,GATE6,,,,"/>
+<approved hash="107,1,33.02,45.72,-12V,GATE8,,,,"/>
+<approved hash="107,1,48.26,38.1,CLOCK,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,CLOCK,GATE3,,,,"/>
+<approved hash="107,1,48.26,43.18,CLOCK,GATE5,,,,"/>
+<approved hash="107,1,48.26,45.72,CLOCK,GATE7,,,,"/>
+<approved hash="107,1,33.02,38.1,CLOCK,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,CLOCK,GATE4,,,,"/>
+<approved hash="107,1,33.02,43.18,CLOCK,GATE6,,,,"/>
+<approved hash="107,1,33.02,45.72,CLOCK,GATE8,,,,"/>
+<approved hash="107,1,48.26,38.1,GATE3,GATE1,,,,"/>
+<approved hash="107,1,33.02,38.1,GATE4,GATE2,,,,"/>
+<approved hash="107,1,48.26,38.1,GATE5,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,GATE5,GATE3,,,,"/>
+<approved hash="107,1,33.02,38.1,GATE6,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,GATE6,GATE4,,,,"/>
+<approved hash="107,1,48.26,38.1,GATE7,GATE1,,,,"/>
+<approved hash="107,1,48.26,40.64,GATE7,GATE3,,,,"/>
+<approved hash="107,1,48.26,43.18,GATE7,GATE5,,,,"/>
+<approved hash="107,1,33.02,38.1,GATE8,GATE2,,,,"/>
+<approved hash="107,1,33.02,40.64,GATE8,GATE4,,,,"/>
+<approved hash="107,1,33.02,43.18,GATE8,GATE6,,,,"/>
+<approved hash="110,1,48.26,27.94,GND,+12V,,,,"/>
+<approved hash="110,1,48.26,50.8,GND,-12V,,,,"/>
+<approved hash="110,1,48.26,50.8,GND,-12V,,,,"/>
+<approved hash="110,1,48.26,48.26,GND,CLOCK,,,,"/>
+<approved hash="110,1,48.26,48.26,GND,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,GND,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,GND,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,GND,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,GND,GATE3,,,,"/>
+<approved hash="110,1,48.26,43.18,GND,GATE5,,,,"/>
+<approved hash="110,1,48.26,43.18,GND,GATE5,,,,"/>
+<approved hash="110,1,48.26,45.72,GND,GATE7,,,,"/>
+<approved hash="110,1,48.26,45.72,GND,GATE7,,,,"/>
+<approved hash="110,1,33.02,27.94,GND,+12V,,,,"/>
+<approved hash="110,1,33.02,50.8,GND,-12V,,,,"/>
+<approved hash="110,1,33.02,50.8,GND,-12V,,,,"/>
+<approved hash="110,1,33.02,48.26,GND,CLOCK,,,,"/>
+<approved hash="110,1,33.02,48.26,GND,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,GND,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,GND,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,GND,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,GND,GATE4,,,,"/>
+<approved hash="110,1,33.02,43.18,GND,GATE6,,,,"/>
+<approved hash="110,1,33.02,43.18,GND,GATE6,,,,"/>
+<approved hash="110,1,33.02,45.72,GND,GATE8,,,,"/>
+<approved hash="110,1,33.02,45.72,GND,GATE8,,,,"/>
+<approved hash="110,1,48.26,53.34,+12V,GND,,,,"/>
+<approved hash="110,1,48.26,53.34,+12V,GND,,,,"/>
+<approved hash="110,1,48.26,50.8,+12V,-12V,,,,"/>
+<approved hash="110,1,48.26,50.8,+12V,-12V,,,,"/>
+<approved hash="110,1,48.26,48.26,+12V,CLOCK,,,,"/>
+<approved hash="110,1,48.26,48.26,+12V,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,+12V,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,+12V,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,+12V,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,+12V,GATE3,,,,"/>
+<approved hash="110,1,48.26,43.18,+12V,GATE5,,,,"/>
+<approved hash="110,1,48.26,43.18,+12V,GATE5,,,,"/>
+<approved hash="110,1,48.26,45.72,+12V,GATE7,,,,"/>
+<approved hash="110,1,48.26,45.72,+12V,GATE7,,,,"/>
+<approved hash="110,1,33.02,53.34,+12V,GND,,,,"/>
+<approved hash="110,1,33.02,53.34,+12V,GND,,,,"/>
+<approved hash="110,1,33.02,50.8,+12V,-12V,,,,"/>
+<approved hash="110,1,33.02,50.8,+12V,-12V,,,,"/>
+<approved hash="110,1,33.02,48.26,+12V,CLOCK,,,,"/>
+<approved hash="110,1,33.02,48.26,+12V,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,+12V,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,+12V,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,+12V,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,+12V,GATE4,,,,"/>
+<approved hash="110,1,33.02,43.18,+12V,GATE6,,,,"/>
+<approved hash="110,1,33.02,43.18,+12V,GATE6,,,,"/>
+<approved hash="110,1,33.02,45.72,+12V,GATE8,,,,"/>
+<approved hash="110,1,33.02,45.72,+12V,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,-12V,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,-12V,+12V,,,,"/>
+<approved hash="110,1,48.26,48.26,-12V,CLOCK,,,,"/>
+<approved hash="110,1,48.26,48.26,-12V,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,-12V,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,-12V,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,-12V,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,-12V,GATE3,,,,"/>
+<approved hash="110,1,48.26,43.18,-12V,GATE5,,,,"/>
+<approved hash="110,1,48.26,43.18,-12V,GATE5,,,,"/>
+<approved hash="110,1,48.26,45.72,-12V,GATE7,,,,"/>
+<approved hash="110,1,48.26,45.72,-12V,GATE7,,,,"/>
+<approved hash="110,1,33.02,25.4,-12V,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,-12V,+12V,,,,"/>
+<approved hash="110,1,33.02,48.26,-12V,CLOCK,,,,"/>
+<approved hash="110,1,33.02,48.26,-12V,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,-12V,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,-12V,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,-12V,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,-12V,GATE4,,,,"/>
+<approved hash="110,1,33.02,43.18,-12V,GATE6,,,,"/>
+<approved hash="110,1,33.02,43.18,-12V,GATE6,,,,"/>
+<approved hash="110,1,33.02,45.72,-12V,GATE8,,,,"/>
+<approved hash="110,1,33.02,45.72,-12V,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,CLOCK,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,CLOCK,+12V,,,,"/>
+<approved hash="110,1,48.26,22.86,CLOCK,-12V,,,,"/>
+<approved hash="110,1,48.26,38.1,CLOCK,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,CLOCK,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,CLOCK,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,CLOCK,GATE3,,,,"/>
+<approved hash="110,1,48.26,43.18,CLOCK,GATE5,,,,"/>
+<approved hash="110,1,48.26,43.18,CLOCK,GATE5,,,,"/>
+<approved hash="110,1,48.26,45.72,CLOCK,GATE7,,,,"/>
+<approved hash="110,1,48.26,45.72,CLOCK,GATE7,,,,"/>
+<approved hash="110,1,33.02,25.4,CLOCK,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,CLOCK,+12V,,,,"/>
+<approved hash="110,1,33.02,22.86,CLOCK,-12V,,,,"/>
+<approved hash="110,1,33.02,38.1,CLOCK,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,CLOCK,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,CLOCK,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,CLOCK,GATE4,,,,"/>
+<approved hash="110,1,33.02,43.18,CLOCK,GATE6,,,,"/>
+<approved hash="110,1,33.02,43.18,CLOCK,GATE6,,,,"/>
+<approved hash="110,1,33.02,45.72,CLOCK,GATE8,,,,"/>
+<approved hash="110,1,33.02,45.72,CLOCK,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,GATE1,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,GATE1,+12V,,,,"/>
+<approved hash="110,1,48.26,22.86,GATE1,-12V,,,,"/>
+<approved hash="110,1,48.26,20.32,GATE1,CLOCK,,,,"/>
+<approved hash="110,1,48.26,12.7,GATE1,GATE3,,,,"/>
+<approved hash="110,1,48.26,15.24,GATE1,GATE5,,,,"/>
+<approved hash="110,1,48.26,17.78,GATE1,GATE7,,,,"/>
+<approved hash="110,1,33.02,25.4,GATE2,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,GATE2,+12V,,,,"/>
+<approved hash="110,1,33.02,22.86,GATE2,-12V,,,,"/>
+<approved hash="110,1,33.02,20.32,GATE2,CLOCK,,,,"/>
+<approved hash="110,1,33.02,12.7,GATE2,GATE4,,,,"/>
+<approved hash="110,1,33.02,15.24,GATE2,GATE6,,,,"/>
+<approved hash="110,1,33.02,17.78,GATE2,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,GATE3,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,GATE3,+12V,,,,"/>
+<approved hash="110,1,48.26,22.86,GATE3,-12V,,,,"/>
+<approved hash="110,1,48.26,20.32,GATE3,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE3,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE3,GATE1,,,,"/>
+<approved hash="110,1,48.26,15.24,GATE3,GATE5,,,,"/>
+<approved hash="110,1,48.26,17.78,GATE3,GATE7,,,,"/>
+<approved hash="110,1,33.02,25.4,GATE4,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,GATE4,+12V,,,,"/>
+<approved hash="110,1,33.02,22.86,GATE4,-12V,,,,"/>
+<approved hash="110,1,33.02,20.32,GATE4,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE4,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE4,GATE2,,,,"/>
+<approved hash="110,1,33.02,15.24,GATE4,GATE6,,,,"/>
+<approved hash="110,1,33.02,17.78,GATE4,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,GATE5,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,GATE5,+12V,,,,"/>
+<approved hash="110,1,48.26,22.86,GATE5,-12V,,,,"/>
+<approved hash="110,1,48.26,20.32,GATE5,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE5,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE5,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,GATE5,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,GATE5,GATE3,,,,"/>
+<approved hash="110,1,48.26,17.78,GATE5,GATE7,,,,"/>
+<approved hash="110,1,33.02,25.4,GATE6,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,GATE6,+12V,,,,"/>
+<approved hash="110,1,33.02,22.86,GATE6,-12V,,,,"/>
+<approved hash="110,1,33.02,20.32,GATE6,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE6,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE6,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,GATE6,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,GATE6,GATE4,,,,"/>
+<approved hash="110,1,33.02,17.78,GATE6,GATE8,,,,"/>
+<approved hash="110,1,48.26,25.4,GATE7,GND,,,,"/>
+<approved hash="110,1,48.26,27.94,GATE7,+12V,,,,"/>
+<approved hash="110,1,48.26,22.86,GATE7,-12V,,,,"/>
+<approved hash="110,1,48.26,20.32,GATE7,CLOCK,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE7,GATE1,,,,"/>
+<approved hash="110,1,48.26,38.1,GATE7,GATE1,,,,"/>
+<approved hash="110,1,48.26,40.64,GATE7,GATE3,,,,"/>
+<approved hash="110,1,48.26,40.64,GATE7,GATE3,,,,"/>
+<approved hash="110,1,48.26,43.18,GATE7,GATE5,,,,"/>
+<approved hash="110,1,48.26,43.18,GATE7,GATE5,,,,"/>
+<approved hash="110,1,33.02,25.4,GATE8,GND,,,,"/>
+<approved hash="110,1,33.02,27.94,GATE8,+12V,,,,"/>
+<approved hash="110,1,33.02,22.86,GATE8,-12V,,,,"/>
+<approved hash="110,1,33.02,20.32,GATE8,CLOCK,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE8,GATE2,,,,"/>
+<approved hash="110,1,33.02,38.1,GATE8,GATE2,,,,"/>
+<approved hash="110,1,33.02,40.64,GATE8,GATE4,,,,"/>
+<approved hash="110,1,33.02,40.64,GATE8,GATE4,,,,"/>
+<approved hash="110,1,33.02,43.18,GATE8,GATE6,,,,"/>
+<approved hash="110,1,33.02,43.18,GATE8,GATE6,,,,"/>
+<approved hash="111,1,48.26,12.7,GATE1,,,,,"/>
+<approved hash="111,1,48.26,15.24,GATE1,,,,,"/>
+<approved hash="111,1,48.26,15.24,GATE3,,,,,"/>
+<approved hash="111,1,33.02,12.7,GATE2,,,,,"/>
+<approved hash="111,1,33.02,15.24,GATE2,,,,,"/>
+<approved hash="111,1,33.02,15.24,GATE4,,,,,"/>
+<approved hash="111,1,48.26,17.78,GATE1,,,,,"/>
+<approved hash="111,1,48.26,17.78,GATE3,,,,,"/>
+<approved hash="111,1,48.26,17.78,GATE5,,,,,"/>
+<approved hash="111,1,48.26,20.32,GATE1,,,,,"/>
+<approved hash="111,1,48.26,20.32,GATE3,,,,,"/>
+<approved hash="111,1,48.26,20.32,GATE5,,,,,"/>
+<approved hash="111,1,48.26,20.32,GATE7,,,,,"/>
+<approved hash="111,1,33.02,17.78,GATE2,,,,,"/>
+<approved hash="111,1,33.02,17.78,GATE4,,,,,"/>
+<approved hash="111,1,33.02,17.78,GATE6,,,,,"/>
+<approved hash="111,1,33.02,20.32,GATE2,,,,,"/>
+<approved hash="111,1,33.02,20.32,GATE4,,,,,"/>
+<approved hash="111,1,33.02,20.32,GATE6,,,,,"/>
+<approved hash="111,1,33.02,20.32,GATE8,,,,,"/>
+<approved hash="111,1,48.26,22.86,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,22.86,GATE1,,,,,"/>
+<approved hash="111,1,48.26,22.86,GATE3,,,,,"/>
+<approved hash="111,1,48.26,22.86,GATE5,,,,,"/>
+<approved hash="111,1,48.26,22.86,GATE7,,,,,"/>
+<approved hash="111,1,48.26,25.4,-12V,,,,,"/>
+<approved hash="111,1,48.26,25.4,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,25.4,GATE1,,,,,"/>
+<approved hash="111,1,48.26,25.4,GATE3,,,,,"/>
+<approved hash="111,1,48.26,25.4,GATE5,,,,,"/>
+<approved hash="111,1,48.26,25.4,GATE7,,,,,"/>
+<approved hash="111,1,48.26,27.94,GND,,,,,"/>
+<approved hash="111,1,48.26,27.94,-12V,,,,,"/>
+<approved hash="111,1,48.26,27.94,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,27.94,GATE1,,,,,"/>
+<approved hash="111,1,48.26,27.94,GATE3,,,,,"/>
+<approved hash="111,1,48.26,27.94,GATE5,,,,,"/>
+<approved hash="111,1,48.26,27.94,GATE7,,,,,"/>
+<approved hash="111,1,33.02,22.86,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,22.86,GATE2,,,,,"/>
+<approved hash="111,1,33.02,22.86,GATE4,,,,,"/>
+<approved hash="111,1,33.02,22.86,GATE6,,,,,"/>
+<approved hash="111,1,33.02,22.86,GATE8,,,,,"/>
+<approved hash="111,1,33.02,25.4,-12V,,,,,"/>
+<approved hash="111,1,33.02,25.4,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,25.4,GATE2,,,,,"/>
+<approved hash="111,1,33.02,25.4,GATE4,,,,,"/>
+<approved hash="111,1,33.02,25.4,GATE6,,,,,"/>
+<approved hash="111,1,33.02,25.4,GATE8,,,,,"/>
+<approved hash="111,1,33.02,27.94,GND,,,,,"/>
+<approved hash="111,1,33.02,27.94,-12V,,,,,"/>
+<approved hash="111,1,33.02,27.94,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,27.94,GATE2,,,,,"/>
+<approved hash="111,1,33.02,27.94,GATE4,,,,,"/>
+<approved hash="111,1,33.02,27.94,GATE6,,,,,"/>
+<approved hash="111,1,33.02,27.94,GATE8,,,,,"/>
+<approved hash="111,1,48.26,38.1,GND,,,,,"/>
+<approved hash="111,1,48.26,38.1,+12V,,,,,"/>
+<approved hash="111,1,48.26,38.1,-12V,,,,,"/>
+<approved hash="111,1,48.26,38.1,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,38.1,GATE3,,,,,"/>
+<approved hash="111,1,48.26,38.1,GATE5,,,,,"/>
+<approved hash="111,1,48.26,38.1,GATE7,,,,,"/>
+<approved hash="111,1,48.26,40.64,GND,,,,,"/>
+<approved hash="111,1,48.26,40.64,+12V,,,,,"/>
+<approved hash="111,1,48.26,40.64,-12V,,,,,"/>
+<approved hash="111,1,48.26,40.64,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,40.64,GATE5,,,,,"/>
+<approved hash="111,1,48.26,40.64,GATE7,,,,,"/>
+<approved hash="111,1,48.26,43.18,GND,,,,,"/>
+<approved hash="111,1,48.26,43.18,+12V,,,,,"/>
+<approved hash="111,1,48.26,43.18,-12V,,,,,"/>
+<approved hash="111,1,48.26,43.18,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,43.18,GATE7,,,,,"/>
+<approved hash="111,1,33.02,38.1,GND,,,,,"/>
+<approved hash="111,1,33.02,38.1,+12V,,,,,"/>
+<approved hash="111,1,33.02,38.1,-12V,,,,,"/>
+<approved hash="111,1,33.02,38.1,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,38.1,GATE4,,,,,"/>
+<approved hash="111,1,33.02,38.1,GATE6,,,,,"/>
+<approved hash="111,1,33.02,38.1,GATE8,,,,,"/>
+<approved hash="111,1,33.02,40.64,GND,,,,,"/>
+<approved hash="111,1,33.02,40.64,+12V,,,,,"/>
+<approved hash="111,1,33.02,40.64,-12V,,,,,"/>
+<approved hash="111,1,33.02,40.64,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,40.64,GATE6,,,,,"/>
+<approved hash="111,1,33.02,40.64,GATE8,,,,,"/>
+<approved hash="111,1,33.02,43.18,GND,,,,,"/>
+<approved hash="111,1,33.02,43.18,+12V,,,,,"/>
+<approved hash="111,1,33.02,43.18,-12V,,,,,"/>
+<approved hash="111,1,33.02,43.18,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,43.18,GATE8,,,,,"/>
+<approved hash="111,1,48.26,45.72,GND,,,,,"/>
+<approved hash="111,1,48.26,45.72,+12V,,,,,"/>
+<approved hash="111,1,48.26,45.72,-12V,,,,,"/>
+<approved hash="111,1,48.26,45.72,CLOCK,,,,,"/>
+<approved hash="111,1,48.26,48.26,GND,,,,,"/>
+<approved hash="111,1,48.26,48.26,+12V,,,,,"/>
+<approved hash="111,1,48.26,48.26,-12V,,,,,"/>
+<approved hash="111,1,33.02,45.72,GND,,,,,"/>
+<approved hash="111,1,33.02,45.72,+12V,,,,,"/>
+<approved hash="111,1,33.02,45.72,-12V,,,,,"/>
+<approved hash="111,1,33.02,45.72,CLOCK,,,,,"/>
+<approved hash="111,1,33.02,48.26,GND,,,,,"/>
+<approved hash="111,1,33.02,48.26,+12V,,,,,"/>
+<approved hash="111,1,33.02,48.26,-12V,,,,,"/>
+<approved hash="111,1,48.26,50.8,GND,,,,,"/>
+<approved hash="111,1,48.26,50.8,+12V,,,,,"/>
+<approved hash="111,1,48.26,53.34,+12V,,,,,"/>
+<approved hash="111,1,33.02,50.8,GND,,,,,"/>
+<approved hash="111,1,33.02,50.8,+12V,,,,,"/>
+<approved hash="111,1,33.02,53.34,+12V,,,,,"/>
+<approved hash="113,1,40.64,20.5147,GATES,,,,,"/>
+<approved hash="113,1,153.67,157.802,LED1,,,,,"/>
+<approved hash="113,1,207.01,155.262,LED2,,,,,"/>
+<approved hash="113,1,153.67,140.022,LED3,,,,,"/>
+<approved hash="113,1,207.01,137.482,LED4,,,,,"/>
+<approved hash="113,1,156.21,119.702,LED5,,,,,"/>
+<approved hash="113,1,209.55,117.162,LED6,,,,,"/>
+<approved hash="113,1,156.21,99.3817,LED7,,,,,"/>
+<approved hash="113,1,209.55,96.8417,LED8,,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1,40.64,48.4547,GATES1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
