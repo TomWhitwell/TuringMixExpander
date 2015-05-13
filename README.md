@@ -3,11 +3,12 @@
 ![[](http://youtu.be/Ccwjb2riCqE)](https://github.com/TomWhitwell/TuringMixExpander/raw/master/Collateral/vme_vid1.png)  
 
 - A 4 in, 2 out  vactrol matrix mixer controlled by the Turing Machine  
-- An alternative to the Voltages expander (connects to the Gates output) 
+- Connects to the Gates output, can be daisychained with Voltages  
 - Creates rhythmic patterns or shifting drones from any audio source 
 - Great for feedback loops  
 - DC coupled, so you can also rhythmically cut up DC sources; LFOs etc. 
 - Inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
+- NB: Fully expanded Turing (Pulses, Voltages, Vactrol) draws up to 190mA of current, so you may need to upgrade (or short circuit) the polyfuses in your backpack. 
 
 ###Resources  
 
