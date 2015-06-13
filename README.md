@@ -18,6 +18,8 @@
 [Issue Log](https://github.com/TomWhitwell/TuringMixExpander/issues)   
 [Schematic](https://github.com/TomWhitwell/TuringMixExpander/wiki/Schematics)  
 
+There is no PCB Panel layout, but there is a prototype lasercut panel in the hardware folder.  
+
 ###Demos: 
 [Video 1: General demo](http://youtu.be/Ccwjb2riCqE)  
 [Video 2](http://youtu.be/xf4IhIy3am4)  
