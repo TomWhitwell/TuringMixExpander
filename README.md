@@ -28,7 +28,7 @@ There is no PCB Panel layout, but there is a prototype lasercut panel in the har
 [Vactrol Mix Expander 2](https://soundcloud.com/musicthing/exquisite-corpse-2)  
 [20 Minutes of Madness](https://soundcloud.com/musicthing/radio-music-20-minutes-of-madness)  
 
-![](https://github.com/TomWhitwell/TuringMixExpander/raw/master/Collateral/random_seq_panels%2BVISUAL-01.jpg)
+![](https://raw.githubusercontent.com/TomWhitwell/TuringMixExpander/master/Collateral/mixexpander.png)
 
 ![Turing Machine Vactrol Mix Expander](https://farm6.staticflickr.com/5452/8877172227_30965980ba.jpg)  
 
