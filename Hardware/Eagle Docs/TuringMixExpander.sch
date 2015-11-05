@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6498,8 +6498,8 @@ level attenuators</text>
 <instance part="LDR8" gate="G$1" x="223.52" y="93.98"/>
 <instance part="IC2" gate="A" x="154.94" y="35.56"/>
 <instance part="IC2" gate="B" x="154.94" y="71.12"/>
-<instance part="OUT_LEFT" gate="G$1" x="203.2" y="63.5"/>
-<instance part="OUT_R" gate="G$1" x="205.74" y="43.18"/>
+<instance part="OUT_LEFT" gate="G$1" x="208.28" y="71.12"/>
+<instance part="OUT_R" gate="G$1" x="208.28" y="33.02"/>
 <instance part="R7" gate="G$1" x="170.18" y="71.12"/>
 <instance part="R8" gate="G$1" x="175.26" y="35.56"/>
 <instance part="R5" gate="G$1" x="132.08" y="68.58" rot="R90"/>
@@ -6533,7 +6533,7 @@ level attenuators</text>
 <instance part="R1" gate="G$1" x="142.24" y="157.48" rot="R180"/>
 <instance part="C1" gate="G$1" x="73.66" y="93.98"/>
 <instance part="C2" gate="G$1" x="73.66" y="81.28"/>
-<instance part="OUT_LEFT1" gate="G$1" x="193.04" y="73.66"/>
+<instance part="OUT_LEFT1" gate="G$1" x="190.5" y="71.12"/>
 <instance part="OUT_R1" gate="G$1" x="190.5" y="33.02"/>
 <instance part="SUPPLY1" gate="GND" x="160.02" y="132.08"/>
 <instance part="SUPPLY2" gate="GND" x="160.02" y="111.76"/>
@@ -6611,11 +6611,11 @@ level attenuators</text>
 </segment>
 <segment>
 <pinref part="OUT_LEFT" gate="G$1" pin="5"/>
-<wire x1="187.96" y1="71.12" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="68.58" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <label x="185.42" y="63.5" size="1.778" layer="95"/>
 <pinref part="OUT_LEFT1" gate="G$1" pin="5"/>
-<junction x="187.96" y="71.12"/>
-<wire x1="187.96" y1="71.12" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<junction x="185.42" y="68.58"/>
+<wire x1="185.42" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OUT_R" gate="G$1" pin="5"/>
@@ -6623,7 +6623,7 @@ level attenuators</text>
 <label x="185.42" y="27.94" size="1.778" layer="95"/>
 <pinref part="OUT_R1" gate="G$1" pin="5"/>
 <junction x="185.42" y="30.48"/>
-<wire x1="185.42" y1="30.48" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="30.48" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VR2" gate="G$1" pin="A"/>
@@ -7242,10 +7242,10 @@ level attenuators</text>
 <pinref part="OUT_LEFT" gate="G$1" pin="3"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="76.2" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="73.66" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="OUT_LEFT1" gate="G$1" pin="3"/>
-<junction x="187.96" y="76.2"/>
-<wire x1="187.96" y1="76.2" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
+<junction x="185.42" y="73.66"/>
+<wire x1="185.42" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -7254,7 +7254,7 @@ level attenuators</text>
 <pinref part="OUT_R" gate="G$1" pin="3"/>
 <pinref part="OUT_R1" gate="G$1" pin="3"/>
 <junction x="185.42" y="35.56"/>
-<wire x1="185.42" y1="35.56" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="35.56" x2="180.34" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
