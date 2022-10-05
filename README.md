@@ -1,4 +1,4 @@
-##Turing Vactrol Mix Expander   
+## Turing Vactrol Mix Expander   
 
 ![[](http://youtu.be/Ccwjb2riCqE)](https://github.com/TomWhitwell/TuringMixExpander/raw/master/Collateral/vme_vid1.png)  
 
@@ -10,7 +10,7 @@
 - Inspired by Grant Richter's Cadavre Exquis voltage controlled mixer.  
 - NB: Fully expanded Turing (Pulses, Voltages, Vactrol) draws up to 190mA of current, so you may need to upgrade (or short circuit) the polyfuses in your backpack. 
 
-###Resources  
+### Resources  
 
 [Documentation](https://github.com/TomWhitwell/TuringMixExpander/wiki)   
 [Patch Ideas](https://github.com/TomWhitwell/TuringMixExpander/wiki/Patch-Recipes)  
@@ -20,7 +20,7 @@
 
 There is no PCB Panel layout, but there is a prototype lasercut panel in the hardware folder.  
 
-###Demos: 
+### Demos: 
 [Video 1: General demo](http://youtu.be/Ccwjb2riCqE)  
 [Video 2](http://youtu.be/xf4IhIy3am4)  
 [Video 3](http://youtu.be/hwUs_kbf3PM)  
